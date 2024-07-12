@@ -1,0 +1,26 @@
+.m{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.b{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.b:focus,
+.b:hover {
+    background-color: rgb(165, 165, 50);
+    font-weight: 550;
+}
+.f{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
